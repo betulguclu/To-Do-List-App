@@ -1,0 +1,59 @@
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:rgb(48, 38, 38);;
+}
+#group {
+    margin: 40px auto;
+    float: none;
+}
+header{
+    text-align: center;
+}
+h2{
+    padding-bottom: 20px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid rgb(48, 38, 38);
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(48, 38, 38);
+    outline: none;
+    
+}
+input::placeholder{
+    color: seashell;
+}
+
+.ourtasks{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0 20px;
+    color: #080808;
+    cursor: pointer;
+}
+ul li:hover{
+    font-size: 35px;
+}
+
+li span{
+    float: right;
+    opacity: 0;
+}
+
+li:hover span{
+    opacity: 1;
+    color: red;
+}
+.isDone{
+    text-decoration: line-through;
+    color: rgb(99, 101, 136);
+}
